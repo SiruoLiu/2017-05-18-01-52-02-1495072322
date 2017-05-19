@@ -7,8 +7,8 @@ var Student = function(name,age,kclass){
     Person.prototype.constructor.call(this,name,age);
     this.kclass = kclass;
 };
-Student.prototype = Object.create(Person.prototype);
-//Student.prototype = new Person(name,age) ;
+//Student.prototype = Object.create(Person.prototype);
+Student.prototype = new Person(name,age) ;
 Student.prototype.constructor = Student;
 Student.baseClass = Person;
 //override the sayHello method
