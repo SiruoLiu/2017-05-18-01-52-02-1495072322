@@ -3,7 +3,7 @@ module.exports = Person
 /*
  * 定义一个类User,js中使用构造函数实现 
  */  
-Person = function(name,age){  
+var Person = function(name,age){  
     //定义属性  
     this.name = name;  
     this.age = age;  
