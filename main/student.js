@@ -15,6 +15,6 @@ Student.baseClass = Person;
      Student.prototype.introduce  = function(){
     //call the method in the base class
          
-     var a="My name is "+this.name+". I am "+this.age+" years old."+" I am at Class "+this.kclass+"."  
+     var a="My name is "+this.name+". I am "+this.age+" years old. I am a Student."+" I am at Class "+this.kclass+"."  
     return a;  
 };
