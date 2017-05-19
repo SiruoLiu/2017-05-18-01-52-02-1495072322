@@ -14,9 +14,4 @@ Person.prototype.introduce = function(){
   var a="My name is "+this.name+". I am "+this.age+" years old."
     return a;  
 };  
- var Person = function(name,age){
-      //instance property, which owns by the instance.
-      this.name = name;
-      this.age = age;
-  };
- 
+ 
