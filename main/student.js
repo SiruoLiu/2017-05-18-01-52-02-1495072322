@@ -2,7 +2,7 @@
 // Write your code here
 module.exports = Student
  //define a sub class
-var Student = function(name,age,kclass){
+ function Student (name,age,kclass){
     
     Person.prototype.constructor.call(this,name,age);
     this.kclass = kclass;
